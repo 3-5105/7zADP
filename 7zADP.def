@@ -1,0 +1,9 @@
+LIBRARY     7zADP
+
+DESCRIPTION "7zADP"
+
+EXPORTS
+   DllCanUnloadNow   PRIVATE
+   DllGetClassObject PRIVATE
+   DllRegisterServer PRIVATE
+   DllUnregisterServer PRIVATE 
