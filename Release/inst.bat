@@ -56,6 +56,8 @@ IF DEFINED INSTALL_PATH (
     :: Write the path to config.ini
     echo [Settings] > "%CURRENT_DIR%config.ini"
     echo 7zPath=%INSTALL_PATH%7z.exe >> "%CURRENT_DIR%config.ini"
+    echo ExtraParams=-mx=9 -mmt=4 >> "%CURRENT_DIR%config.ini"
+
     echo 7zPath 已写入 config.ini 文件。
     echo 7zPath has been written to config.ini.
 ) ELSE (
